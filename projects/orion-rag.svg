@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-label="ORION-RAG architecture">
+  <defs>
+    <pattern id="g1" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0L0 0 0 24" fill="none" stroke="#111" stroke-width="0.5" opacity="0.16" />
+    </pattern>
+    <marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#111" />
+    </marker>
+  </defs>
+  <rect width="1200" height="540" fill="#f4f1ea" />
+  <rect width="1200" height="540" fill="url(#g1)" />
+  <rect x="8" y="8" width="1184" height="524" fill="none" stroke="#111" stroke-width="3" />
+
+  <rect x="20" y="20" width="1160" height="46" fill="#111" />
+  <text x="36" y="50" fill="#f4f1ea" font-family="JetBrains Mono, monospace" font-size="16" font-weight="700" letter-spacing="1.5">ORION-RAG // HYBRID RETRIEVAL PLATFORM // STATUS LIVE</text>
+  <text x="1160" y="50" fill="#facc15" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">P95 120ms</text>
+
+  <g font-family="Archivo Black, Arial Black, sans-serif" font-size="13" fill="#111">
+    <rect x="50" y="160" width="180" height="96" fill="#f4f1ea" stroke="#111" stroke-width="3" />
+    <text x="68" y="194">USER QUERY</text>
+
+    <rect x="270" y="160" width="190" height="96" fill="#ff5b1f" stroke="#111" stroke-width="3" />
+    <text x="288" y="194">QUERY PLAN</text>
+    <text x="288" y="218">REWRITE</text>
+
+    <rect x="500" y="130" width="210" height="126" fill="#facc15" stroke="#111" stroke-width="3" />
+    <text x="518" y="164">VECTOR SEARCH</text>
+    <text x="518" y="188">QDRANT</text>
+
+    <rect x="500" y="280" width="210" height="126" fill="#f4f1ea" stroke="#111" stroke-width="3" />
+    <text x="518" y="314">KEYWORD SEARCH</text>
+    <text x="518" y="338">BM25</text>
+
+    <rect x="750" y="190" width="180" height="96" fill="#facc15" stroke="#111" stroke-width="3" />
+    <text x="768" y="224">RERANKER</text>
+
+    <rect x="970" y="190" width="180" height="96" fill="#111" stroke="#111" stroke-width="3" />
+    <text x="988" y="224" fill="#f4f1ea">ANSWER</text>
+    <text x="988" y="248" fill="#f4f1ea">+ CITATIONS</text>
+  </g>
+
+  <g fill="none" stroke="#111" stroke-width="3" marker-end="url(#a1)">
+    <path d="M230 208L270 208" />
+    <path d="M460 208L500 193" />
+    <path d="M460 208L500 343" />
+    <path d="M710 193L750 228" />
+    <path d="M710 343L750 248" />
+    <path d="M930 238L970 238" />
+  </g>
+
+  <g>
+    <rect x="50" y="434" width="1100" height="56" fill="#f4f1ea" stroke="#111" stroke-width="3" />
+    <text x="70" y="470" fill="#111" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700" letter-spacing="1.2">HYBRID SEARCH + RERANKING REDUCED HALLUCINATION RATE BY 63%</text>
+  </g>
+</svg>
