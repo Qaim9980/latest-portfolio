@@ -433,7 +433,7 @@ export const projects = [
 
 export const experience = [
   {
-    period: '2023 — NOW',
+    period: '2026 — NOW',
     role: 'AI ENGINEER',
     org: 'FREELANCE / OPEN TO WORK',
     bullets: [
@@ -443,7 +443,7 @@ export const experience = [
     ],
   },
   {
-    period: '2021 — 2023',
+    period: '2025 — 2026',
     role: 'AI & AUTOMATION DEVELOPER',
     org: 'PROJECT-BASED WORK',
     bullets: [
@@ -453,7 +453,7 @@ export const experience = [
     ],
   },
   {
-    period: '2019 — 2021',
+    period: '2022 — 2026',
     role: "BACHELOR'S IN ARTIFICIAL INTELLIGENCE",
     org: 'UNIVERSITY',
     bullets: [
