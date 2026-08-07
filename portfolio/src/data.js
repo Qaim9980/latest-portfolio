@@ -188,7 +188,7 @@ export const projects = [
 
 export const experience = [
   {
-    period: '2023 — NOW',
+    period: '2026 — NOW',
     role: 'STAFF AI ENGINEER',
     org: 'NORTHWIND LABS',
     bullets: [
@@ -198,7 +198,7 @@ export const experience = [
     ],
   },
   {
-    period: '2020 — 2023',
+    period: '2025 — 2026',
     role: 'SENIOR MACHINE LEARNING ENGINEER',
     org: 'OBLIVION ANALYTICS',
     bullets: [
@@ -208,7 +208,7 @@ export const experience = [
     ],
   },
   {
-    period: '2018 — 2020',
+    period: '2022 — 2026',
     role: 'ML ENGINEER',
     org: 'CINDER INDUSTRIES',
     bullets: [
