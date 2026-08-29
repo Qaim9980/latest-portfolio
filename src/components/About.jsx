@@ -79,20 +79,24 @@ export default function About() {
           </div>
 
           <div className="pillars">
-            {[p1Ref, p2Ref, p3Ref].map((ref, i) => (
-              <div
-                className="pillar reveal"
-                ref={ref}
-                key={about.pillars[i].title}
-                style={{ animationDelay: `${i * 110 + 180}ms` }}
-              >
-                <h3>{about.pillars[i].title} //</h3>
-                <p>{about.pillars[i].text}</p>
-                <a href="#projects" className="btn btn--ghost pillar__btn">
-                  VIEW PROJECTS →
-                </a>
-              </div>
-            ))}
+            {[p1Ref, p2Ref, p3Ref].map((ref, i) => {
+              const p = about.pillars?.[i]
+              if (!p) return null
+              return (
+                <div
+                  className="pillar reveal"
+                  ref={ref}
+                  key={p.title}
+                  style={{ animationDelay: `${i * 110 + 180}ms` }}
+                >
+                  <h3>{p.title} //</h3>
+                  <p>{p.text}</p>
+                  <a href="#projects" className="btn btn--ghost pillar__btn">
+                    VIEW PROJECTS →
+                  </a>
+                </div>
+              )
+            })}
           </div>
         </div>
       </div>

@@ -28,10 +28,31 @@ export default function Contact() {
             </a>
           </div>
           <div className="contact__panel">
-            <a href={`mailto:${profile.email}`}>EMAIL ↗ {profile.email}</a>
-            <a href={profile.github} target="_blank" rel="noreferrer">GITHUB ↗ {profile.github.replace('https://', '')}</a>
-            <a href={profile.linkedin} target="_blank" rel="noreferrer">LINKEDIN ↗ {profile.linkedin.replace('https://', '')}</a>
-            <a href={profile.twitter} target="_blank" rel="noreferrer">TWITTER / X ↗ {profile.twitter.replace('https://', '')}</a>
+            {profile.email && (
+              <a href={`mailto:${profile.email}`}>
+                EMAIL ↗ {profile.email}
+              </a>
+            )}
+            {profile.phone && (
+              <a href={`tel:${profile.phone.replace(/\s+/g, '')}`}>
+                PHONE ↗ {profile.phone}
+              </a>
+            )}
+            {profile.github && (
+              <a href={profile.github} target="_blank" rel="noreferrer">
+                GITHUB ↗ {profile.github.replace(/^https?:\/\//i, '')}
+              </a>
+            )}
+            {profile.linkedin && (
+              <a href={profile.linkedin} target="_blank" rel="noreferrer">
+                LINKEDIN ↗ {profile.linkedin.replace(/^https?:\/\/(www\.)?/i, '')}
+              </a>
+            )}
+            {profile.twitter && (
+              <a href={profile.twitter} target="_blank" rel="noreferrer">
+                TWITTER / X ↗ {profile.twitter.replace(/^https?:\/\/(www\.)?/i, '')}
+              </a>
+            )}
           </div>
         </div>
       </div>
