@@ -2,10 +2,18 @@ import { useEffect, useRef, useState } from 'react'
 import { stats } from '../data'
 import { useCountUp } from '../hooks/useCountUp'
 
-// Animated numeric stat (e.g. "10+", "95%")
-function NumericValue({ prefix, target, suffix, decimals, duration = 1600 }) {
+function parseStat(value) {
+  const m = String(value).match(/^([^0-9.]*)([0-9]*\.?[0-9]+)(.*)$/)
+  if (!m) return { prefix: '', target: 0, suffix: value, decimals: 0 }
+  const [, prefix, num, suffix] = m
+  const decimals = num.includes('.') ? num.split('.')[1].length : 0
+  return { prefix, target: parseFloat(num), suffix, decimals }
+}
+
+function AnimatedValue({ value, duration = 1600 }) {
   const ref = useRef(null)
   const [start, setStart] = useState(false)
+  const { prefix, target, suffix, decimals } = parseStat(value)
   const animated = useCountUp(target, { start, duration, decimals })
 
   useEffect(() => {
@@ -25,20 +33,6 @@ function NumericValue({ prefix, target, suffix, decimals, duration = 1600 }) {
       {prefix}<span className="counter">{animated}</span>{suffix}
     </div>
   )
-}
-
-// Plain text stat (e.g. "BS AI")
-function TextValue({ value }) {
-  const ref = useRef(null)
-  return <div className="stat__v" ref={ref}>{value}</div>
-}
-
-function AnimatedValue({ value }) {
-  const m = String(value).match(/^([^0-9.]*)([0-9]*\.?[0-9]+)(.*)$/)
-  if (!m) return <TextValue value={value} />
-  const [, prefix, num, suffix] = m
-  const decimals = num.includes('.') ? num.split('.')[1].length : 0
-  return <NumericValue prefix={prefix} target={parseFloat(num)} suffix={suffix} decimals={decimals} />
 }
 
 export default function Stats() {

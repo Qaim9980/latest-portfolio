@@ -29,9 +29,9 @@ export default function Contact() {
           </div>
           <div className="contact__panel">
             <a href={`mailto:${profile.email}`}>EMAIL ↗ {profile.email}</a>
-            <a href={`tel:${profile.phone}`}>PHONE ↗ {profile.phone}</a>
             <a href={profile.github} target="_blank" rel="noreferrer">GITHUB ↗ {profile.github.replace('https://', '')}</a>
-            <a href={profile.linkedin} target="_blank" rel="noreferrer">LINKEDIN ↗ {profile.linkedin.replace('https://www.', '')}</a>
+            <a href={profile.linkedin} target="_blank" rel="noreferrer">LINKEDIN ↗ {profile.linkedin.replace('https://', '')}</a>
+            <a href={profile.twitter} target="_blank" rel="noreferrer">TWITTER / X ↗ {profile.twitter.replace('https://', '')}</a>
           </div>
         </div>
       </div>

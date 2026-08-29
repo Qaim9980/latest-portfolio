@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-label="AI Competitor Intelligence Platform architecture">
+  <defs>
+    <pattern id="grid-ai" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0L0 0 0 24" fill="none" stroke="#111" stroke-width="0.5" opacity="0.16" />
+    </pattern>
+    <marker id="arr-ai" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#111" />
+    </marker>
+  </defs>
+
+  <rect width="1200" height="540" fill="#f4f1ea" />
+  <rect width="1200" height="540" fill="url(#grid-ai)" />
+  <rect x="8" y="8" width="1184" height="524" fill="none" stroke="#111" stroke-width="3" />
+
+  <!-- Top Banner -->
+  <rect x="20" y="20" width="1160" height="46" fill="#111" />
+  <text x="36" y="50" fill="#f4f1ea" font-family="JetBrains Mono, monospace" font-size="15" font-weight="700" letter-spacing="1.5">AI-COMPETITOR-INTEL // MARKET SENTIMENT &amp; FEATURE MATRIX // STATUS ● PRODUCTION</text>
+  <text x="1160" y="50" fill="#facc15" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" letter-spacing="1">28 TESTS · FASTAPI + SQLite</text>
+
+  <!-- Architecture Flow Nodes -->
+  <g font-family="Archivo Black, Arial Black, sans-serif" font-size="13" fill="#111">
+    <!-- Ingestion Layer -->
+    <rect x="36" y="110" width="180" height="110" fill="#f4f1ea" stroke="#111" stroke-width="3" />
+    <text x="50" y="142">URL CRAWLER</text>
+    <text x="50" y="166" font-family="JetBrains Mono, monospace" font-size="11" fill="#444">BEAUTIFULSOUP</text>
+    <text x="50" y="186" font-family="JetBrains Mono, monospace" font-size="11" fill="#444">PRICING &amp; FEATURES</text>
+    <text x="50" y="204" font-family="JetBrains Mono, monospace" font-size="11" fill="#ff4d2e">● MULTI-TARGET</text>
+
+    <rect x="36" y="250" width="180" height="110" fill="#f4f1ea" stroke="#111" stroke-width="3" />
+    <text x="50" y="282">PUBLIC SIGNALS</text>
+    <text x="50" y="306" font-family="JetBrains Mono, monospace" font-size="11" fill="#444">REDDIT / HN / SO</text>
+    <text x="50" y="326" font-family="JetBrains Mono, monospace" font-size="11" fill="#444">REVIEWS &amp; FORUMS</text>
+    <text x="50" y="344" font-family="JetBrains Mono, monospace" font-size="11" fill="#ff4d2e">● ASYNC HTTPX</text>
+
+    <!-- Normalization & Storage -->
+    <rect x="256" y="180" width="170" height="120" fill="#facc15" stroke="#111" stroke-width="3" />
+    <text x="270" y="214">TEXT NORMALIZER</text>
+    <text x="270" y="238" font-family="JetBrains Mono, monospace" font-size="11" fill="#111">SHA-256 DEDUP</text>
+    <text x="270" y="258" font-family="JetBrains Mono, monospace" font-size="11" fill="#111">DOMAIN TRUST</text>
+    <text x="270" y="278" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700" fill="#111">WEIGHT MATRIX</text>
+
+    <!-- NLP Analysis Engine -->
+    <rect x="466" y="130" width="220" height="220" fill="#ff4d2e" stroke="#111" stroke-width="3" />
+    <text x="482" y="168" fill="#f4f1ea">NLP ANALYSIS</text>
+    <text x="482" y="192" fill="#f4f1ea">LEXICON ENGINE</text>
+    <line x1="480" y1="206" x2="670" y2="206" stroke="#f4f1ea" stroke-width="2" />
+    <text x="482" y="230" font-family="JetBrains Mono, monospace" font-size="11" fill="#facc15">7 STRATEGIC THEMES:</text>
+    <text x="482" y="252" font-family="JetBrains Mono, monospace" font-size="11" fill="#f4f1ea">• PRICING / UX</text>
+    <text x="482" y="272" font-family="JetBrains Mono, monospace" font-size="11" fill="#f4f1ea">• RELIABILITY / SPEED</text>
+    <text x="482" y="292" font-family="JetBrains Mono, monospace" font-size="11" fill="#f4f1ea">• SUPPORT / FEATURES</text>
+    <text x="482" y="322" font-family="JetBrains Mono, monospace" font-size="11" fill="#facc15">POLARITY &amp; INTENSITY</text>
+
+    <!-- Opportunity Matrix & Storage -->
+    <rect x="726" y="148" width="190" height="184" fill="#facc15" stroke="#111" stroke-width="3" />
+    <text x="742" y="184">GAP &amp; THREAT</text>
+    <text x="742" y="208">SCORING</text>
+    <line x1="740" y1="222" x2="900" y2="222" stroke="#111" stroke-width="2" />
+    <text x="742" y="246" font-family="JetBrains Mono, monospace" font-size="11" fill="#111">OPPORTUNITY INDEX</text>
+    <text x="742" y="268" font-family="JetBrains Mono, monospace" font-size="11" fill="#111">COMPETITOR WEAKNESS</text>
+    <text x="742" y="296" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700" fill="#111">SQLite (WAL POOL)</text>
+
+    <!-- Exporters & Delivery -->
+    <rect x="956" y="110" width="204" height="90" fill="#f4f1ea" stroke="#111" stroke-width="3" />
+    <text x="972" y="142">AURORA UI</text>
+    <text x="972" y="166" font-family="JetBrains Mono, monospace" font-size="11" fill="#444">CHART.JS RADAR/BARS</text>
+    <text x="972" y="184" font-family="JetBrains Mono, monospace" font-size="11" fill="#ff4d2e">CANVAS FALLBACK</text>
+
+    <rect x="956" y="220" width="204" height="85" fill="#f4f1ea" stroke="#111" stroke-width="3" />
+    <text x="972" y="252">FASTAPI REST</text>
+    <text x="972" y="276" font-family="JetBrains Mono, monospace" font-size="11" fill="#444">PORT 8000 / SWAGGER</text>
+    <text x="972" y="294" font-family="JetBrains Mono, monospace" font-size="11" fill="#111">JSON PAYLOADS</text>
+
+    <rect x="956" y="325" width="204" height="85" fill="#111" stroke="#111" stroke-width="3" />
+    <text x="972" y="358" fill="#f4f1ea">PDF DOSSIER</text>
+    <text x="972" y="382" font-family="JetBrains Mono, monospace" font-size="11" fill="#facc15">FPDF2 MULTI-PAGE</text>
+    <text x="972" y="398" font-family="JetBrains Mono, monospace" font-size="11" fill="#f4f1ea">MARKDOWN BRIEFS</text>
+  </g>
+
+  <!-- Connective Arrows -->
+  <g fill="none" stroke="#111" stroke-width="3" marker-end="url(#arr-ai)">
+    <path d="M216 165L256 215" />
+    <path d="M216 305L256 265" />
+    <path d="M426 240L466 240" />
+    <path d="M686 240L726 240" />
+    <path d="M916 210L956 155" />
+    <path d="M916 240L956 255" />
+    <path d="M916 270L956 360" />
+  </g>
+
+  <!-- Bottom Metric Banner -->
+  <g>
+    <rect x="36" y="440" width="1124" height="56" fill="#f4f1ea" stroke="#111" stroke-width="3" />
+    <text x="56" y="475" fill="#111" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700" letter-spacing="1.2">100% AUTOMATED SCRAPING + RULE-BASED THEME &amp; SENTIMENT SCORING // ZERO THIRD-PARTY LLM COSTS</text>
+  </g>
+</svg>

@@ -1,14 +1,10 @@
 import { experience } from '../data'
-import { useReveal } from '../hooks/useReveal'
 
 export default function Experience() {
-  const [headRef] = useReveal()
-  const reveals = experience.map(() => useReveal())
-
   return (
     <section className="experience" id="experience">
       <div className="brut-container">
-        <div className="section-head reveal" ref={headRef}>
+        <div className="section-head reveal">
           <div>
             <span className="eyebrow">FILE 05 / LOG</span>
             <h2 className="display">EXPERIENCE LOG.</h2>
@@ -17,12 +13,7 @@ export default function Experience() {
         </div>
         <div className="timeline">
           {experience.map((e, i) => (
-            <div
-              className="tl-row reveal"
-              ref={reveals[i][0]}
-              key={i}
-              style={{ animationDelay: `${i * 110}ms` }}
-            >
+            <div className="tl-row reveal" key={i} style={{ animationDelay: `${i * 110}ms` }}>
               <div className="tl-period">{e.period}</div>
               <div className="tl-body">
                 <h3>{e.role}</h3>

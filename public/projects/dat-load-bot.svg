@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-label="DAT Load Email Bot Chrome Extension architecture">
+  <defs>
+    <pattern id="grid-dat" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0L0 0 0 24" fill="none" stroke="#111" stroke-width="0.5" opacity="0.16" />
+    </pattern>
+    <marker id="arr-dat" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#111" />
+    </marker>
+  </defs>
+
+  <rect width="1200" height="540" fill="#f4f1ea" />
+  <rect width="1200" height="540" fill="url(#grid-dat)" />
+  <rect x="8" y="8" width="1184" height="524" fill="none" stroke="#111" stroke-width="3" />
+
+  <!-- Top Banner -->
+  <rect x="20" y="20" width="1160" height="46" fill="#111" />
+  <text x="36" y="50" fill="#f4f1ea" font-family="JetBrains Mono, monospace" font-size="15" font-weight="700" letter-spacing="1.5">LOAD EMAIL BOT // DAT FREIGHT EXTRACTOR &amp; EMAIL AUTOMATION // MANIFEST V3</text>
+  <text x="1160" y="50" fill="#facc15" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" letter-spacing="1">&lt;1s DISPATCH · GMAIL &amp; OUTLOOK</text>
+
+  <!-- Architecture Flow Nodes -->
+  <g font-family="Archivo Black, Arial Black, sans-serif" font-size="13" fill="#111">
+    <!-- Active Tab & DOM Inspector -->
+    <rect x="36" y="110" width="180" height="110" fill="#f4f1ea" stroke="#111" stroke-width="3" />
+    <text x="50" y="142">DAT ONE / POWER</text>
+    <text x="50" y="166" font-family="JetBrains Mono, monospace" font-size="11" fill="#444">ACTIVE LOAD BOARD</text>
+    <text x="50" y="186" font-family="JetBrains Mono, monospace" font-size="11" fill="#444">DYNAMIC DOM NODES</text>
+    <text x="50" y="204" font-family="JetBrains Mono, monospace" font-size="11" fill="#ff4d2e">● dat.com/*</text>
+
+    <rect x="36" y="250" width="180" height="110" fill="#f4f1ea" stroke="#111" stroke-width="3" />
+    <text x="50" y="282">OBSERVER ENGINE</text>
+    <text x="50" y="306" font-family="JetBrains Mono, monospace" font-size="11" fill="#444">MUTATIONOBSERVER</text>
+    <text x="50" y="326" font-family="JetBrains Mono, monospace" font-size="11" fill="#444">SELECTION MONITOR</text>
+    <text x="50" y="344" font-family="JetBrains Mono, monospace" font-size="11" fill="#ff4d2e">● ZERO POLLING</text>
+
+    <!-- Multi-Strategy Extractor -->
+    <rect x="256" y="140" width="190" height="200" fill="#facc15" stroke="#111" stroke-width="3" />
+    <text x="270" y="174">3-STRATEGY</text>
+    <text x="270" y="196">PARSER</text>
+    <line x1="268" y1="210" x2="434" y2="210" stroke="#111" stroke-width="2" />
+    <text x="270" y="232" font-family="JetBrains Mono, monospace" font-size="11" fill="#111">1. &lt;dat-contacts&gt;</text>
+    <text x="270" y="254" font-family="JetBrains Mono, monospace" font-size="11" fill="#111">2. .contacts__email</text>
+    <text x="270" y="276" font-family="JetBrains Mono, monospace" font-size="11" fill="#111">3. &lt;dat-load-details&gt;</text>
+    <text x="270" y="300" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700" fill="#111">MAILTO &amp; TEXT RE</text>
+    <text x="270" y="322" font-family="JetBrains Mono, monospace" font-size="10" fill="#111">BLACKLIST FILTERING</text>
+
+    <!-- Payload Synthesizer -->
+    <rect x="486" y="130" width="200" height="220" fill="#ff4d2e" stroke="#111" stroke-width="3" />
+    <text x="502" y="168" fill="#f4f1ea">DATA SYNTHESIZER</text>
+    <text x="502" y="192" fill="#f4f1ea">&amp; TEMPLATES</text>
+    <line x1="500" y1="206" x2="674" y2="206" stroke="#f4f1ea" stroke-width="2" />
+    <text x="502" y="230" font-family="JetBrains Mono, monospace" font-size="11" fill="#facc15">LOAD ATTRIBUTES:</text>
+    <text x="502" y="252" font-family="JetBrains Mono, monospace" font-size="11" fill="#f4f1ea">• ORIGIN &rarr; DEST</text>
+    <text x="502" y="272" font-family="JetBrains Mono, monospace" font-size="11" fill="#f4f1ea">• MILEAGE &amp; DEADHEAD</text>
+    <text x="502" y="292" font-family="JetBrains Mono, monospace" font-size="11" fill="#f4f1ea">• RATE &amp; EQUIPMENT</text>
+    <text x="502" y="322" font-family="JetBrains Mono, monospace" font-size="11" fill="#facc15">CUSTOM TEMPLATE TOKENS</text>
+
+    <!-- Background Worker & IndexedDB -->
+    <rect x="726" y="148" width="190" height="184" fill="#facc15" stroke="#111" stroke-width="3" />
+    <text x="742" y="184">BACKGROUND</text>
+    <text x="742" y="208">SERVICE WORKER</text>
+    <line x1="740" y1="222" x2="900" y2="222" stroke="#111" stroke-width="2" />
+    <text x="742" y="246" font-family="JetBrains Mono, monospace" font-size="11" fill="#111">OAUTH2 TOKENS</text>
+    <text x="742" y="268" font-family="JetBrains Mono, monospace" font-size="11" fill="#111">INDEXEDDB LOGS</text>
+    <text x="742" y="296" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700" fill="#111">DEDUP &amp; RATE CACHE</text>
+
+    <!-- Dual Client Dispatch -->
+    <rect x="956" y="110" width="204" height="90" fill="#f4f1ea" stroke="#111" stroke-width="3" />
+    <text x="972" y="142">GMAIL API</text>
+    <text x="972" y="166" font-family="JetBrains Mono, monospace" font-size="11" fill="#444">GOOGLE OAUTH2</text>
+    <text x="972" y="184" font-family="JetBrains Mono, monospace" font-size="11" fill="#ff4d2e">DIRECT SEND / DRAFT</text>
+
+    <rect x="956" y="220" width="204" height="85" fill="#f4f1ea" stroke="#111" stroke-width="3" />
+    <text x="972" y="252">MS GRAPH API</text>
+    <text x="972" y="276" font-family="JetBrains Mono, monospace" font-size="11" fill="#444">OUTLOOK 365 OAUTH</text>
+    <text x="972" y="294" font-family="JetBrains Mono, monospace" font-size="11" fill="#111">ENTERPRISE INBOX</text>
+
+    <rect x="956" y="325" width="204" height="85" fill="#111" stroke="#111" stroke-width="3" />
+    <text x="972" y="358" fill="#f4f1ea">POPUP UI</text>
+    <text x="972" y="382" font-family="JetBrains Mono, monospace" font-size="11" fill="#facc15">INSTANT CLIPBOARD</text>
+    <text x="972" y="398" font-family="JetBrains Mono, monospace" font-size="11" fill="#f4f1ea">TEMPLATE SWITCHER</text>
+  </g>
+
+  <!-- Connective Arrows -->
+  <g fill="none" stroke="#111" stroke-width="3" marker-end="url(#arr-dat)">
+    <path d="M216 165L256 215" />
+    <path d="M216 305L256 265" />
+    <path d="M446 240L486 240" />
+    <path d="M686 240L726 240" />
+    <path d="M916 210L956 155" />
+    <path d="M916 240L956 255" />
+    <path d="M916 270L956 360" />
+  </g>
+
+  <!-- Bottom Metric Banner -->
+  <g>
+    <rect x="36" y="440" width="1124" height="56" fill="#f4f1ea" stroke="#111" stroke-width="3" />
+    <text x="56" y="475" fill="#111" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700" letter-spacing="1.2">AUTOMATED FREIGHT BIDDING // CUTS 3-MINUTE MANUAL BOOKING PROCESS TO UNDER 1 SECOND</text>
+  </g>
+</svg>

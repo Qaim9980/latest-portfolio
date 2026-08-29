@@ -329,6 +329,172 @@ section { padding: 96px 0; position: relative; }
   margin: 0 0 16px;
   max-width: 60ch;
 }
+
+/* ------------ dossier card ------------ */
+.dossier-card {
+  margin-top: 32px;
+  border: var(--line-thick);
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+
+.dossier-card__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+.dossier-card__tag {
+  color: var(--accent);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dossier-card__id {
+  color: var(--muted);
+}
+
+.dossier-card__content {
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dossier-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dossier-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.dossier-edu {
+  padding: 14px 16px;
+  background: rgba(10, 10, 10, 0.04);
+  border-left: 4px solid var(--ink);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.dossier-edu__degree {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 17px;
+  letter-spacing: -0.01em;
+}
+
+.dossier-edu__inst {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.dossier-edu__meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 4px;
+  flex-wrap: wrap;
+}
+
+.dossier-badge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border: 1.5px solid var(--ink);
+  background: var(--paper);
+}
+
+.dossier-badge--accent {
+  background: var(--accent);
+  border-color: var(--ink);
+}
+
+.dossier-certs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 600px) {
+  .dossier-certs {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cert-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 2px solid var(--ink);
+  background: #fff;
+}
+
+.cert-item__badge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  background: var(--accent);
+  color: var(--ink);
+  padding: 2px 6px;
+  border: 1px solid var(--ink);
+  white-space: nowrap;
+}
+
+.cert-item__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cert-item__name {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.cert-item__issuer {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.dossier-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.dossier-chip {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  padding: 6px 12px;
+  border: 1.5px solid var(--ink);
+  background: var(--paper);
+}
+
+.dossier-chip--highlight {
+  background: var(--accent);
+  font-weight: 700;
+}
+
 .pillars {
   display: flex;
   flex-direction: column;

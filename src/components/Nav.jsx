@@ -15,7 +15,7 @@ export default function Nav() {
           <a href="#experience">LOG</a>
           <a href="#contact">CONTACT</a>
         </nav>
-        <a href="#contact" className="btn btn--accent nav__cta">
+        <a href={`mailto:${profile.email}`} className="btn btn--accent nav__cta">
           {profile.status}
         </a>
       </div>

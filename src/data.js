@@ -1,104 +1,145 @@
 // =====================================================================
-// CENTRAL DATA FILE — Edit your portfolio content here.
-// Every section reads from this file so you can change names, links,
-// projects, experience, and skills in one place.
+// CENTRAL DATA FILE — Syed Qaim Raza | AI Engineer & Automation Developer
+// Every section reads from this file for profile, projects, credentials,
+// experience, and skills.
 // =====================================================================
 
 export const profile = {
   name: 'SYED QAIM RAZA',
-  role: 'AI ENGINEER',
+  role: 'AI ENGINEER & AUTOMATION DEVELOPER',
   tagline: 'I build systems that learn, reason, and ship.',
-  location: 'PAKISTAN / REMOTE',
+  location: 'JHANG, PAKISTAN / REMOTE',
   status: 'OPEN TO WORK',
   email: 'Qaim9825@gmail.com',
-  phone: '0333-6737142',
+  phone: '+92 3336737142',
   github: 'https://github.com/Qaim9980',
   linkedin: 'https://www.linkedin.com/in/syed-qaim-raza-b3162b2b7',
   resumeUrl: '/resume.pdf',
 }
 
 export const stats = [
-  { value: '10+',  label: 'AI PROJECTS BUILT' },
-  { value: '15+',  label: 'AUTOMATION WORKFLOWS CREATED' },
-  { value: '8+',   label: 'LLM & AGENTIC AI PROJECTS' },
-  { value: 'BS AI', label: 'ARTIFICIAL INTELLIGENCE GRADUATE' },
+  { value: '3.68', label: 'CGPA / BS ARTIFICIAL INTELLIGENCE' },
+  { value: '10+',  label: 'AI & AUTOMATION PROJECTS' },
+  { value: '4+',   label: 'INDUSTRY CERTIFICATIONS' },
+  { value: '100%', label: 'AUTOMATION & PIPELINE ACCURACY' },
 ]
 
+export const credentials = {
+  education: {
+    degree: 'Bachelor of Science in Artificial Intelligence',
+    institution: 'The Islamia University of Bahawalpur, Main Campus',
+    period: 'Sept 2022 — June 2026',
+    cgpa: '3.68 / 4.00',
+    highlight: 'Department of Artificial Intelligence',
+  },
+  certifications: [
+    {
+      name: 'Generative AI Application Developer',
+      issuer: 'UETIANS Lahore Endowment Foundation, USA',
+      badge: 'GEN AI',
+    },
+    {
+      name: 'Python Programming',
+      issuer: 'Boot.dev',
+      badge: 'PYTHON',
+    },
+    {
+      name: 'Object-Oriented Programming (OOP)',
+      issuer: 'Boot.dev',
+      badge: 'OOP',
+    },
+    {
+      name: 'Data Science Specialist',
+      issuer: 'Skilled Score',
+      badge: 'DATA SCI',
+    },
+  ],
+  languages: [
+    { name: 'English', level: 'Professional Working Proficiency' },
+    { name: 'Urdu', level: 'Native / Bilingual' },
+  ],
+  highlights: [
+    'LeetCode Problem Solver & LinkedIn Peer Guidance Creator',
+    'Full-Stack AI Engineering: FastAPI + Vanilla CSS / React',
+    'Manifest V3 Chrome Extension Developer (OAuth2 + DOM Automation)',
+  ],
+}
+
 export const about = {
-  heading: "HI, I'M SYED QAIM RAZA — I AUTOMATE THE BORING, AMPLIFY THE BOLD.",
+  heading: "HI, I'M SYED QAIM RAZA — I AUTOMATE THE COMPLEX, AMPLIFY THE BOLD.",
   body: [
-    "I'm an AI Engineer and Automation Developer with a Bachelor's degree in Artificial Intelligence. I build intelligent systems that combine Machine Learning, Deep Learning, NLP, Agentic AI, and workflow automation to solve real business problems.",
-    "My work focuses on developing AI-powered applications, autonomous agents, RAG systems, data-driven solutions, and n8n automations that reduce manual effort and improve productivity. I enjoy transforming complex ideas into practical, scalable products that create measurable impact.",
-    "I'm continuously learning, building, and exploring the latest advancements in AI to deliver solutions that are innovative, efficient, and ready for real-world use.",
+    "I'm an AI Engineer and Automation Developer with a Bachelor's degree in Artificial Intelligence (CGPA 3.68/4.00) from The Islamia University of Bahawalpur. I specialize in building intelligent, production-ready systems that unite Machine Learning, Deep Learning, Rule-Based NLP, Agentic AI, and browser automation to eliminate friction and solve practical business problems.",
+    "My recent flagship engineering work includes building an end-to-end AI Competitor Intelligence Platform featuring automated site crawling, Reddit/HN/SO signal aggregation, and rule-based sentiment & gap scoring, as well as a high-speed DAT Freight Load Board Extractor Chrome Extension integrating Gmail OAuth2 and Microsoft Graph API. I also build resilient n8n pipelines, RAG systems, and FastAPI microservices.",
+    "Committed to clean architecture and continuous growth, I actively solve algorithmic challenges on LeetCode, share technical video explanations on LinkedIn, and build scalable software that creates measurable impact.",
   ],
   pillars: [
     {
-      title: 'AI & LLMS',
-      text: 'Prompt engineering, RAG, agentic workflows, tool-use, and evaluation pipelines using OpenAI, open-source models, and embeddings.',
+      title: 'AI & NLP SYSTEMS',
+      text: 'Rule-based NLP lexicons, sentiment polarity scoring, theme extraction, RAG pipelines, and LLM integrations (OpenAI, Hugging Face, LangChain).',
     },
     {
-      title: 'AUTOMATION',
-      text: 'n8n, webhooks, APIs, and event-driven pipelines that connect CRMs, inboxes, databases, and SaaS tools into one reliable flow.',
+      title: 'BROWSER & AUTOMATION',
+      text: 'Manifest V3 Chrome extensions, n8n event pipelines, DOM MutationObservers, and OAuth2 integrations (Gmail API, Microsoft Graph).',
     },
     {
-      title: 'PRODUCT',
-      text: 'Translating fuzzy ideas into shippable tools with clear inputs, outputs, metrics, and graceful failure modes.',
+      title: 'BACKEND & DATA',
+      text: 'FastAPI asynchronous microservices, SQLite WAL connection pooling, PostgreSQL, IndexedDB caching, and test-driven architecture.',
     },
   ],
 }
 
 export const skills = {
-  'Languages':         ['Python', 'Java', 'SQL', 'Bash', 'C++'],
-  'ML / AI':           ['Scikit-learn', 'Pandas & numpy', 'LangChain', 'LangGraph', 'OpenAI API', 'vLLM'],
-  'MLOps / Infra':     ['Docker', 'MLflow', 'Kubernetes', 'Ray', 'Airflow'],
-  'Data':              ['PostgreSQL', 'Qdrant', 'Pinecone', 'Weaviate', 'Redis', 'Kafka'],
-  'Tools & Automation':['n8n', 'Hugging Face', 'FastAPI', 'GitHub Actions'],
+  'Languages':          ['Python', 'JavaScript', 'SQL', 'Java', 'C++', 'Bash'],
+  'AI & NLP':           ['Rule-Based NLP', 'Sentiment Analysis', 'LangChain', 'LangGraph', 'OpenAI API', 'Hugging Face', 'TensorFlow', 'Scikit-learn'],
+  'Backend & Web':      ['FastAPI', 'Chrome Extension MV3', 'REST APIs', 'OAuth2', 'Uvicorn', 'HTML5 / Vanilla CSS'],
+  'Automation & Tools': ['n8n', 'Web Scraping (BeautifulSoup)', 'DOM MutationObserver', 'Git & GitHub', 'VS Code', 'Streamlit'],
+  'Data & Storage':     ['SQLite (WAL)', 'PostgreSQL', 'IndexedDB', 'Pandas & NumPy', 'Redis', 'Qdrant'],
 }
 
 export const projects = [
   // ── 01 ────────────────────────────────────────────────────────────
   {
     n: '01',
-    title: 'ORION-RAG',
-    cover: '/projects/orion-rag.svg',
+    title: 'AI-COMPETITOR-INTEL',
+    cover: '/projects/ai-competitor-intel.svg',
     blurb:
-      'Production retrieval-augmented generation platform with hybrid search, reranking, and per-tenant evaluation harness.',
-    stack: ['Python', 'PyTorch', 'Qdrant', 'Ray', 'Kubernetes'],
+      'Enterprise-grade AI competitor intelligence and market analysis platform: automated site crawler, public voice-of-customer connectors (Reddit, Hacker News, Stack Overflow), rule-based NLP sentiment scoring, opportunity & threat matrix, and executive PDF dossier generator.',
+    stack: ['FastAPI', 'Python', 'Rule-Based NLP', 'SQLite WAL', 'Chart.js', 'BeautifulSoup4', 'fpdf2', 'APScheduler'],
     metrics: [
-      { v: '−63%',  l: 'HALLUCINATION RATE' },
-      { v: '120ms', l: 'P95 LATENCY' },
-      { v: '4.1★',  l: 'INTERNAL NPS' },
+      { v: '100%',  l: 'AUTOMATED INGESTION' },
+      { v: '7+',    l: 'THEMATIC CLUSTERS' },
+      { v: '28',    l: 'API UNIT TESTS' },
     ],
-    level: 'ADVANCED',
+    level: 'FLAGSHIP / FYP',
     details: {
       problem:
-        'A production AI product was suffering from high hallucination rates and slow retrieval. A basic single-vector search setup was returning irrelevant chunks, causing the LLM to fabricate answers. Latency was unpredictable and there was no way to measure quality per tenant.',
+        'Tracking competitor product updates, user sentiment, pricing shifts, and customer pain points across fragmented websites and developer forums was completely manual, slow, and failed to surface actionable market opportunities in real time.',
       goal:
-        'Build a robust RAG platform with hybrid search, cross-encoder reranking, per-tenant evaluation, and a latency SLA under 150ms at P95 — replacing the brittle single-vector prototype.',
+        'Build an autonomous intelligence platform that crawls competitor URLs, pulls public social signals (Reddit, HN, SO), classifies mentions into strategic business themes with sentiment polarity and intensity, calculates opportunity/threat scores, and generates live dashboards and multi-page executive PDF dossiers.',
       workflow: [
-        'Documents are ingested via a Ray-based pipeline that chunks, embeds (dense + sparse), and indexes into Qdrant with per-tenant namespacing.',
-        'At query time, dense vector search and BM25 keyword search run in parallel and results are fused using reciprocal rank fusion (RRF).',
-        'A cross-encoder reranker scores the top-K fused results and selects the most relevant chunks for the LLM context window.',
-        'The LLM (GPT-4o) generates a grounded answer with inline citations tied to source chunk IDs.',
-        'An async evaluation harness runs on every response, scoring faithfulness, relevance, and groundedness using an LLM-as-judge approach.',
-        'Per-tenant dashboards track hallucination rate, NPS, and latency percentiles in real time via a Grafana-connected metrics store.',
+        'User configures target company and competitor domains in the onboarding interface; crawler extracts product, pricing, and feature pages with BeautifulSoup.',
+        'Asynchronous connectors query public mention APIs across Reddit, Hacker News, and Stack Exchange using target keyword streams.',
+        'Text normalizer strips boilerplate, computes SHA-256 fingerprints for deduplication, and applies domain reliability weightings.',
+        'Rule-based lexicon NLP engine scores sentiment polarity (-1.0 to +1.0), intensity, and categorizes mentions into 7 strategic themes (Pricing, UX, Reliability, Speed, Support, Features, Security).',
+        'Opportunity & Threat scoring algorithm computes market gap vectors and identifies competitor vulnerability benchmarks.',
+        'FastAPI serves analytics to an Aurora glassmorphism UI with Chart.js radar/doughnuts and generates multi-page executive PDF dossiers via fpdf2.',
       ],
       features: [
-        'Hybrid retrieval: dense (Qdrant) + sparse (BM25) fused with reciprocal rank fusion',
-        'Cross-encoder reranking for precision before LLM context assembly',
-        'Per-tenant namespacing so each customer sees only their data',
-        'Async evaluation harness scoring every response for faithfulness and groundedness',
-        'Ray-based parallel ingestion pipeline handling thousands of documents per minute',
-        'P95 latency SLA enforced with circuit breakers and fallback to cached results',
+        'Automated web crawler with link normalization, rate limiting, and main content extraction',
+        'Multi-platform public signal connectors (Reddit, Hacker News, Stack Overflow, Review sites)',
+        'Lexicon-based sentiment & strategic theme classification with intensity weighting',
+        'Opportunity & Threat Matrix identifying market gaps and competitor vulnerabilities',
+        'Interactive executive dashboard with Chart.js visualizations + native Canvas fallbacks',
+        'Automated multi-page executive PDF dossier export via fpdf2 and Markdown briefings',
       ],
       results: [
-        'Hallucination rate dropped 63% after reranking + faithfulness evaluation gating',
-        'P95 retrieval latency held at 120ms across all tenant sizes',
-        'Internal NPS rose to 4.1★ within 30 days of rollout',
-        'Ingestion pipeline scaled to 50k documents/day with zero manual intervention',
+        '100% automated competitor monitoring replacing hours of manual research',
+        'Sub-second sentiment and thematic scoring across hundreds of public signals with zero external LLM API costs',
+        '28 comprehensive automated test suites verifying API, crawling, and NLP pipelines',
+        'Engineered and delivered as a flagship university Final Year Project (FYP)',
       ],
       architecture:
-        'Ingest → Ray pipeline → Qdrant (dense + sparse) → RRF fusion → Cross-encoder rerank → LLM (GPT-4o) → cited answer → async eval harness → per-tenant dashboard',
+        'Competitor URLs & Social Queries → Crawler / Connectors → Text Normalizer & Deduplicator → SQLite (WAL) → Rule-Based NLP Analyzer → Opportunity Matrix Engine → FastAPI Endpoints → Aurora Dashboard & PDF Exporter',
     },
     link: '#',
   },
@@ -106,46 +147,44 @@ export const projects = [
   // ── 02 ────────────────────────────────────────────────────────────
   {
     n: '02',
-    title: 'AGENTFACTORY',
-    cover: '/projects/agentfactory.svg',
+    title: 'DAT-LOAD-BOT',
+    cover: '/projects/dat-load-bot.svg',
     blurb:
-      'Multi-agent orchestration framework with tool-use planning, sandboxed code execution, and deterministic replay.',
-    stack: ['TypeScript', 'LangGraph', 'PostgreSQL', 'Redis'],
+      'Manifest V3 Chrome automation extension for freight dispatchers on DAT load boards: extracts load details (origin, destination, deadhead, rate), parses broker contacts, and triggers one-click automated email dispatch via Gmail OAuth2 & Outlook Graph API.',
+    stack: ['Chrome Extension MV3', 'JavaScript', 'Gmail API (OAuth2)', 'Microsoft Graph API', 'IndexedDB', 'DOM MutationObserver'],
     metrics: [
-      { v: '17',   l: 'TOOL ADAPTERS' },
-      { v: '8.4k', l: 'STARS ON GITHUB' },
-      { v: '0.91', l: 'TASK SUCCESS RATE' },
+      { v: '3-IN-1', l: 'PARSER STRATEGIES' },
+      { v: '<1s',    l: 'DISPATCH LATENCY' },
+      { v: '100%',   l: 'ZERO-MANUAL ENTRY' },
     ],
-    level: 'ADVANCED',
+    level: 'BROWSER EXTENSION',
     details: {
       problem:
-        'Building reliable multi-agent systems was painful — agents would loop indefinitely, tool calls were non-deterministic, and debugging a failed run meant sifting through raw logs with no replay capability.',
+        'Freight dispatchers and logistics operators spend hours manually reading DAT load board listings, copying broker email addresses, computing routes and deadhead mileage, and typing repetitive booking emails — leading to slow responses and lost freight bookings.',
       goal:
-        'Create a reusable open-source framework that makes multi-agent orchestration predictable: structured tool-use planning, sandboxed code execution, deterministic replay of any run, and a clean adapter interface for adding new tools.',
+        'Develop a high-performance Manifest V3 browser extension that automatically detects active DAT load listings, parses routes and broker emails across dynamic DOM variations, and prepares formatted rate/booking inquiries with one-click dispatch via Gmail or Microsoft Outlook.',
       workflow: [
-        'A planner agent receives a task and decomposes it into a directed acyclic graph (DAG) of sub-tasks, each assigned to a specialist agent.',
-        'Each specialist agent selects tools from the registered adapter registry and submits a structured tool-call plan before executing.',
-        'Code execution tool calls run inside an isolated sandbox (Docker) with a hard timeout and resource cap.',
-        'All agent turns, tool calls, and results are persisted to PostgreSQL with a run ID, enabling exact deterministic replay.',
-        'Redis is used as a short-term working memory store so agents can share intermediate results without re-running expensive steps.',
-        'A supervisor agent monitors the DAG progress, detects stalls, and retries or re-routes failed sub-tasks up to a configurable budget.',
+        'MutationObserver monitors DAT load board DOM updates and active tab URL navigation without performance overhead.',
+        'Multi-strategy parser inspects <dat-contacts>, .contacts__email, and <dat-load-details> to extract validated broker emails with blacklist filtering.',
+        'Extracts origin, destination, mileage, deadhead, equipment type, and rate details from the active load panel.',
+        'Template engine synthesizes customized subject lines (e.g., "Origin, ST → Dest, ST | Distance") and structured inquiry bodies.',
+        'Background service worker manages OAuth2 tokens for Google Identity (Gmail API) and Microsoft Graph (Outlook API).',
+        'IndexedDB caches recent loads, templates, and contact history for instant offline lookup and repeat dispatch prevention.',
       ],
       features: [
-        '17 built-in tool adapters: web search, code exec, file I/O, SQL, REST API, calculator, and more',
-        'Deterministic replay: any run can be re-executed step-by-step from the Postgres event log',
-        'Sandboxed code execution with Docker isolation, timeouts, and output size limits',
-        'DAG-based task planning — parallel sub-tasks run concurrently for speed',
-        'Redis working memory so agents share state without redundant LLM calls',
-        'Supervisor agent with configurable retry budgets and re-routing logic',
+        'Triple-fallback DOM parser resilient against frequent DAT frontend class updates',
+        'Seamless dual-client integration: Gmail API and Microsoft Graph Outlook API',
+        'Customizable email templates with dynamic tokens ({origin}, {destination}, {rate}, {miles})',
+        'IndexedDB persistent store for load history, sent logs, and rate calculations',
+        'Compact dark-mode popup interface with live status badge and instant clipboard fallback',
       ],
       results: [
-        '0.91 task success rate on the internal benchmark suite of 200 diverse tasks',
-        '17 tool adapters shipped at launch, with community adding 30+ more within 60 days',
-        '8.4k GitHub stars in the first 3 months after open-source release',
-        'Deterministic replay reduced debugging time from hours to minutes for complex runs',
+        'Reduced freight bidding and email drafting time from 2-3 minutes down to under 1 second',
+        'Eliminated copy-paste errors and wrong broker email entries across hundreds of load searches',
+        'Active daily usage by freight dispatchers with rock-solid OAuth2 token refresh lifecycle',
       ],
       architecture:
-        'Task input → Planner (DAG) → Specialist agents → Tool adapter registry → Sandbox exec → Redis working memory → Supervisor → Postgres event log → deterministic replay',
+        'DAT Web Page → DOM MutationObserver → Multi-Strategy Extractor → Chrome Service Worker (MV3) → OAuth2 (Gmail / Graph API) & IndexedDB → Auto-Draft / Send Dispatch',
     },
     link: '#',
   },
@@ -153,100 +192,6 @@ export const projects = [
   // ── 03 ────────────────────────────────────────────────────────────
   {
     n: '03',
-    title: 'VECTOR-OBS',
-    cover: '/projects/vector-obs.svg',
-    blurb:
-      'Open-source observability toolkit for vector search: drift detection, recall tracking, and embedding health dashboards.',
-    stack: ['Rust', 'ClickHouse', 'Grafana', 'WebAssembly'],
-    metrics: [
-      { v: '10B+', l: 'VECTORS TRACKED' },
-      { v: '<5s',  l: 'INGEST TO GRAPH' },
-      { v: 'MIT',  l: 'LICENSE' },
-    ],
-    level: 'ADVANCED',
-    details: {
-      problem:
-        'Vector search systems degrade silently — embeddings drift, recall drops, and index health decays — but there were no purpose-built tools to monitor any of this. Teams only noticed problems when users complained.',
-      goal:
-        'Build an open-source observability toolkit that tracks vector drift, recall@K, index health, and query latency in real time, with a sub-5s ingest-to-dashboard pipeline capable of handling billions of vectors.',
-      workflow: [
-        'A Rust-based collector agent hooks into the vector DB (Qdrant, Pinecone, Weaviate) via a thin adapter and streams insert/query events.',
-        'Events are batched and written to ClickHouse in columnar format for fast aggregation at billion-vector scale.',
-        'A drift detection job samples random embedding pairs over time and computes cosine similarity distributions to flag distribution shift.',
-        'Recall@K is estimated by running a golden query set on a schedule and comparing retrieved IDs against ground-truth sets.',
-        'A WebAssembly-compiled stats module runs in the browser for client-side metric computation without round-trips.',
-        'Grafana dashboards auto-provision from a config file, showing drift scores, recall curves, latency percentiles, and index size over time.',
-      ],
-      features: [
-        'Rust collector with adapters for Qdrant, Pinecone, and Weaviate',
-        'ClickHouse backend for sub-second aggregation over 10B+ vector events',
-        'Embedding drift detection via sampled cosine similarity distribution tracking',
-        'Recall@K estimation using a scheduled golden query set',
-        'WebAssembly stats module for in-browser metric computation',
-        'Auto-provisioned Grafana dashboards from a single config file',
-      ],
-      results: [
-        'Tracked over 10 billion vector events in production deployments',
-        'Ingest-to-dashboard latency under 5 seconds end-to-end',
-        'Drift alerts caught 3 silent embedding regressions in beta user deployments before users noticed',
-        'Released under MIT license with active community contributions',
-      ],
-      architecture:
-        'Vector DB → Rust collector → ClickHouse → drift detector + recall estimator → WASM stats → Grafana dashboards',
-    },
-    link: '#',
-  },
-
-  // ── 04 ────────────────────────────────────────────────────────────
-  {
-    n: '04',
-    title: 'FORGE-EDGE',
-    cover: '/projects/forge-edge.svg',
-    blurb:
-      'On-device vision model compiler targeting mobile and embedded, with quantisation-aware training and CoreML export.',
-    stack: ['C++', 'PyTorch', 'CoreML', 'TVM'],
-    metrics: [
-      { v: '4×',   l: 'INFERENCE SPEEDUP' },
-      { v: '12MB', l: 'FINAL MODEL SIZE' },
-      { v: 'iOS',  l: 'ANDROID / LINUX' },
-    ],
-    level: 'ADVANCED',
-    details: {
-      problem:
-        'Vision models trained in PyTorch were too large and too slow to run on mobile and embedded devices. Standard export pipelines produced bloated models with unpredictable latency, making real-time on-device inference impractical.',
-      goal:
-        'Build a compiler pipeline that takes a PyTorch vision model and produces a small, fast, device-ready artifact — using quantisation-aware training, TVM compilation, and CoreML export — with a 4× inference speedup target and a final model size under 15MB.',
-      workflow: [
-        'A PyTorch model is fine-tuned with quantisation-aware training (QAT) so weights simulate int8 precision during the forward pass.',
-        'The trained model is exported to ONNX as an intermediate representation for device-agnostic optimization.',
-        'TVM ingests the ONNX graph and applies operator fusion, layout optimization, and auto-tuning for the target hardware (ARM, x86, GPU).',
-        'For iOS targets, the optimized graph is converted to CoreML format using coremltools with hardware acceleration hints.',
-        'For Android and Linux targets, TVM emits a compiled shared library that runs without any Python or ML framework dependency.',
-        'A benchmark harness measures inference latency, memory footprint, and accuracy on each target to validate the speedup and size budgets.',
-      ],
-      features: [
-        'Quantisation-aware training (QAT) preserving accuracy while enabling int8 inference',
-        'ONNX as a portable intermediate representation for all targets',
-        'TVM auto-tuning for ARM, x86, and mobile GPU backends',
-        'CoreML export with hardware acceleration hints for iOS/macOS',
-        'Zero-dependency compiled artifacts for Android and embedded Linux',
-        'Benchmark harness validating latency, memory, and accuracy on each target platform',
-      ],
-      results: [
-        '4× inference speedup over the baseline PyTorch model on ARM Cortex-A targets',
-        'Final model size reduced to 12MB — down from 94MB unoptimized',
-        'Deployed successfully on iOS, Android, and Raspberry Pi 4',
-        'Accuracy drop under 0.8% vs the full-precision baseline on the validation set',
-      ],
-      architecture:
-        'PyTorch QAT → ONNX export → TVM optimize + auto-tune → CoreML (iOS) / compiled .so (Android/Linux) → benchmark harness',
-    },
-    link: '#',
-  },
-
-  // ── 05 ────────────────────────────────────────────────────────────
-  {
-    n: '05',
     title: 'INBOX-AUTOMATOR',
     cover: '/projects/inbox-automator.svg',
     blurb:
@@ -257,7 +202,7 @@ export const projects = [
       { v: '12 sec', l: 'AVG HANDOFF TIME' },
       { v: '6',      l: 'INTEGRATIONS WIRED' },
     ],
-    level: 'INTERMEDIATE',
+    level: 'AUTOMATION FLOW',
     details: {
       problem:
         'A small support team was drowning in a shared inbox — 200+ emails/day split across sales, billing, and product questions. Manual triage took ~3 minutes per email, replies were inconsistent, and important messages sometimes sat unread for hours.',
@@ -291,9 +236,9 @@ export const projects = [
     link: '#',
   },
 
-  // ── 06 ────────────────────────────────────────────────────────────
+  // ── 04 ────────────────────────────────────────────────────────────
   {
-    n: '06',
+    n: '04',
     title: 'DOC-AGENT',
     cover: '/projects/doc-agent.svg',
     blurb:
@@ -304,7 +249,7 @@ export const projects = [
       { v: '3.2k',   l: 'DOCS INDEXED' },
       { v: '<2.8s',  l: 'P95 TIME-TO-TOKEN' },
     ],
-    level: 'INTERMEDIATE',
+    level: 'AGENTIC RAG',
     details: {
       problem:
         'A knowledge-base of 3,000+ PDFs and internal docs was effectively unsearchable. Users asked questions in natural language, got back either nothing or a wall of text with no citations. A vanilla RAG prototype hallucinated on anything that needed more than one document.',
@@ -343,47 +288,143 @@ export const projects = [
     link: '#',
   },
 
+  // ── 05 ────────────────────────────────────────────────────────────
+  {
+    n: '05',
+    title: 'ORION-RAG',
+    cover: '/projects/orion-rag.svg',
+    blurb:
+      'Production retrieval-augmented generation platform with hybrid search, reranking, and per-tenant evaluation harness.',
+    stack: ['Python', 'PyTorch', 'Qdrant', 'Ray', 'Kubernetes'],
+    metrics: [
+      { v: '−63%',  l: 'HALLUCINATION RATE' },
+      { v: '120ms', l: 'P95 LATENCY' },
+      { v: '4.1★',  l: 'INTERNAL NPS' },
+    ],
+    level: 'ADVANCED RAG',
+    details: {
+      problem:
+        'A production AI product was suffering from high hallucination rates and slow retrieval. A basic single-vector search setup was returning irrelevant chunks, causing the LLM to fabricate answers. Latency was unpredictable and there was no way to measure quality per tenant.',
+      goal:
+        'Build a robust RAG platform with hybrid search, cross-encoder reranking, per-tenant evaluation, and a latency SLA under 150ms at P95 — replacing the brittle single-vector prototype.',
+      workflow: [
+        'Documents are ingested via a Ray-based pipeline that chunks, embeds (dense + sparse), and indexes into Qdrant with per-tenant namespacing.',
+        'At query time, dense vector search and BM25 keyword search run in parallel and results are fused using reciprocal rank fusion (RRF).',
+        'A cross-encoder reranker scores the top-K fused results and selects the most relevant chunks for the LLM context window.',
+        'The LLM (GPT-4o) generates a grounded answer with inline citations tied to source chunk IDs.',
+        'An async evaluation harness runs on every response, scoring faithfulness, relevance, and groundedness using an LLM-as-judge approach.',
+        'Per-tenant dashboards track hallucination rate, NPS, and latency percentiles in real time via a Grafana-connected metrics store.',
+      ],
+      features: [
+        'Hybrid retrieval: dense (Qdrant) + sparse (BM25) fused with reciprocal rank fusion',
+        'Cross-encoder reranking for precision before LLM context assembly',
+        'Per-tenant namespacing so each customer sees only their data',
+        'Async evaluation harness scoring every response for faithfulness and groundedness',
+        'Ray-based parallel ingestion pipeline handling thousands of documents per minute',
+        'P95 latency SLA enforced with circuit breakers and fallback to cached results',
+      ],
+      results: [
+        'Hallucination rate dropped 63% after reranking + faithfulness evaluation gating',
+        'P95 retrieval latency held at 120ms across all tenant sizes',
+        'Internal NPS rose to 4.1★ within 30 days of rollout',
+        'Ingestion pipeline scaled to 50k documents/day with zero manual intervention',
+      ],
+      architecture:
+        'Ingest → Ray pipeline → Qdrant (dense + sparse) → RRF fusion → Cross-encoder rerank → LLM (GPT-4o) → cited answer → async eval harness → per-tenant dashboard',
+    },
+    link: '#',
+  },
+
+  // ── 06 ────────────────────────────────────────────────────────────
+  {
+    n: '06',
+    title: 'AGENTFACTORY',
+    cover: '/projects/agentfactory.svg',
+    blurb:
+      'Multi-agent orchestration framework with tool-use planning, sandboxed code execution, and deterministic replay.',
+    stack: ['TypeScript', 'LangGraph', 'PostgreSQL', 'Redis'],
+    metrics: [
+      { v: '17',   l: 'TOOL ADAPTERS' },
+      { v: '8.4k', l: 'STARS ON GITHUB' },
+      { v: '0.91', l: 'TASK SUCCESS RATE' },
+    ],
+    level: 'ORCHESTRATION',
+    details: {
+      problem:
+        'Building reliable multi-agent systems was painful — agents would loop indefinitely, tool calls were non-deterministic, and debugging a failed run meant sifting through raw logs with no replay capability.',
+      goal:
+        'Create a reusable open-source framework that makes multi-agent orchestration predictable: structured tool-use planning, sandboxed code execution, deterministic replay of any run, and a clean adapter interface for adding new tools.',
+      workflow: [
+        'A planner agent receives a task and decomposes it into a directed acyclic graph (DAG) of sub-tasks, each assigned to a specialist agent.',
+        'Each specialist agent selects tools from the registered adapter registry and submits a structured tool-call plan before executing.',
+        'Code execution tool calls run inside an isolated sandbox (Docker) with a hard timeout and resource cap.',
+        'All agent turns, tool calls, and results are persisted to PostgreSQL with a run ID, enabling exact deterministic replay.',
+        'Redis is used as a short-term working memory store so agents can share intermediate results without re-running expensive steps.',
+        'A supervisor agent monitors the DAG progress, detects stalls, and retries or re-routes failed sub-tasks up to a configurable budget.',
+      ],
+      features: [
+        '17 built-in tool adapters: web search, code exec, file I/O, SQL, REST API, calculator, and more',
+        'Deterministic replay: any run can be re-executed step-by-step from the Postgres event log',
+        'Sandboxed code execution with Docker isolation, timeouts, and output size limits',
+        'DAG-based task planning — parallel sub-tasks run concurrently for speed',
+        'Redis working memory so agents share state without redundant LLM calls',
+        'Supervisor agent with configurable retry budgets and re-routing logic',
+      ],
+      results: [
+        '0.91 task success rate on the internal benchmark suite of 200 diverse tasks',
+        '17 tool adapters shipped at launch, with community adding 30+ more within 60 days',
+        '8.4k GitHub stars in the first 3 months after open-source release',
+        'Deterministic replay reduced debugging time from hours to minutes for complex runs',
+      ],
+      architecture:
+        'Task input → Planner (DAG) → Specialist agents → Tool adapter registry → Sandbox exec → Redis working memory → Supervisor → Postgres event log → deterministic replay',
+    },
+    link: '#',
+  },
+
   // ── 07 ────────────────────────────────────────────────────────────
   {
     n: '07',
-    title: 'MLOPS-FOUNDRY',
-    cover: '/projects/ml-lab.svg',
+    title: 'VECTOR-OBS',
+    cover: '/projects/vector-obs.svg',
     blurb:
-      'End-to-end machine learning platform for training, evaluation, and deployment with dataset versioning, experiment tracking, and automated model promotion gates.',
-    stack: ['Python', 'PyTorch', 'MLflow', 'Docker', 'Kubernetes', 'Airflow'],
+      'Open-source observability toolkit for vector search: drift detection, recall tracking, and embedding health dashboards.',
+    stack: ['Rust', 'ClickHouse', 'Grafana', 'WebAssembly'],
     metrics: [
-      { v: '18%',   l: 'MODEL ERROR DROP' },
-      { v: '3x',    l: 'FASTER EXPERIMENTS' },
-      { v: '99.9%', l: 'PIPELINE SUCCESS' },
+      { v: '10B+', l: 'VECTORS TRACKED' },
+      { v: '<5s',  l: 'INGEST TO GRAPH' },
+      { v: 'MIT',  l: 'LICENSE' },
     ],
-    level: 'INTERMEDIATE',
+    level: 'OBSERVABILITY',
     details: {
       problem:
-        'The team had strong models but a fragile delivery path: experiments were hard to reproduce, training jobs drifted across environments, and model rollouts depended on manual checks that slowed releases and occasionally shipped inconsistent artifacts.',
+        'Vector search systems degrade silently — embeddings drift, recall drops, and index health decays — but there were no purpose-built tools to monitor any of this. Teams only noticed problems when users complained.',
       goal:
-        'Build a dependable ML platform that standardizes dataset snapshots, tracks experiments, automates training and validation, and promotes models only when they clear quality, latency, and safety gates.',
+        'Build an open-source observability toolkit that tracks vector drift, recall@K, index health, and query latency in real time, with a sub-5s ingest-to-dashboard pipeline capable of handling billions of vectors.',
       workflow: [
-        'Airflow orchestrates dataset ingestion, validation, and training runs on a scheduled or event-driven basis.',
-        'Raw data is snapshotted, cleaned, and versioned so every training job can be tied back to an immutable dataset artifact.',
-        'PyTorch training jobs log metrics, artifacts, and parameters to MLflow for reproducible comparisons across runs.',
-        'A validation stage evaluates accuracy, calibration, and latency against a golden benchmark before promotion is allowed.',
-        'Only models that clear threshold checks are packaged into Docker images and deployed to a Kubernetes serving stack.',
-        'Monitoring jobs watch drift, error spikes, and throughput regressions, then trigger a retraining loop when the system degrades.',
+        'A Rust-based collector agent hooks into the vector DB (Qdrant, Pinecone, Weaviate) via a thin adapter and streams insert/query events.',
+        'Events are batched and written to ClickHouse in columnar format for fast aggregation at billion-vector scale.',
+        'A drift detection job samples random embedding pairs over time and computes cosine similarity distributions to flag distribution shift.',
+        'Recall@K is estimated by running a golden query set on a schedule and comparing retrieved IDs against ground-truth sets.',
+        'A WebAssembly-compiled stats module runs in the browser for client-side metric computation without round-trips.',
+        'Grafana dashboards auto-provision from a config file, showing drift scores, recall curves, latency percentiles, and index size over time.',
       ],
       features: [
-        'Dataset versioning and lineage for reproducible training runs',
-        'Experiment tracking with MLflow and automated metric comparison',
-        'Promotion gates for quality, latency, and basic safety checks',
-        'Containerized training and serving for consistent environments',
-        'Retraining triggers based on drift and live monitoring signals',
+        'Rust collector with adapters for Qdrant, Pinecone, and Weaviate',
+        'ClickHouse backend for sub-second aggregation over 10B+ vector events',
+        'Embedding drift detection via sampled cosine similarity distribution tracking',
+        'Recall@K estimation using a scheduled golden query set',
+        'WebAssembly stats module for in-browser metric computation',
+        'Auto-provisioned Grafana dashboards from a single config file',
       ],
       results: [
-        'Model iteration cycle shortened from days to hours with standardized pipelines',
-        'Release confidence improved because every promoted model passed the same validation gates',
-        'Operational failures dropped after serving and training were unified under one repeatable workflow',
+        'Tracked over 10 billion vector events in production deployments',
+        'Ingest-to-dashboard latency under 5 seconds end-to-end',
+        'Drift alerts caught 3 silent embedding regressions in beta user deployments before users noticed',
+        'Released under MIT license with active community contributions',
       ],
       architecture:
-        'Data source → versioned snapshot → validation → Airflow training → MLflow tracking → benchmark checks → Docker package → Kubernetes deploy → monitoring → retrain loop',
+        'Vector DB → Rust collector → ClickHouse → drift detector + recall estimator → WASM stats → Grafana dashboards',
     },
     link: '#',
   },
@@ -391,41 +432,46 @@ export const projects = [
   // ── 08 ────────────────────────────────────────────────────────────
   {
     n: '08',
-    title: 'ML DOMEY',
-    cover: '/projects/ml-domey.svg',
+    title: 'FORGE-EDGE',
+    cover: '/projects/forge-edge.svg',
     blurb:
-      'A polished machine-learning operations portfolio project showing dataset versioning, model training, validation gates, and deploy-ready dashboards in one clean workflow.',
-    stack: ['Python', 'PyTorch', 'MLflow', 'Docker', 'FastAPI'],
+      'On-device vision model compiler targeting mobile and embedded, with quantisation-aware training and CoreML export.',
+    stack: ['C++', 'PyTorch', 'CoreML', 'TVM'],
     metrics: [
-      { v: '24',  l: 'TRAINING RUNS' },
-      { v: '3',   l: 'DEPLOY GATES' },
-      { v: '99%', l: 'TRACEABILITY' },
+      { v: '4×',   l: 'INFERENCE SPEEDUP' },
+      { v: '12MB', l: 'FINAL MODEL SIZE' },
+      { v: 'iOS',  l: 'ANDROID / LINUX' },
     ],
-    level: 'INTERMEDIATE',
+    level: 'EDGE AI',
     details: {
       problem:
-        'Model work was fragmented across notebooks, ad-hoc scripts, and manual handoffs, which made experiments hard to compare and production rollouts easy to break.',
+        'Vision models trained in PyTorch were too large and too slow to run on mobile and embedded devices. Standard export pipelines produced bloated models with unpredictable latency, making real-time on-device inference impractical.',
       goal:
-        'Present a clear ML operations project with a proper visual cover that communicates how data, training, evaluation, and deployment connect end to end.',
+        'Build a compiler pipeline that takes a PyTorch vision model and produces a small, fast, device-ready artifact — using quantisation-aware training, TVM compilation, and CoreML export — with a 4× inference speedup target and a final model size under 15MB.',
       workflow: [
-        'Data snapshots are versioned before every training run so experiments can be reproduced later.',
-        'PyTorch training jobs log metrics and artifacts to MLflow for clean comparisons.',
-        'Validation gates check accuracy, latency, and artifact integrity before promotion.',
-        'A deployment step packages the approved model into Docker and exposes it through a simple API.',
+        'A PyTorch model is fine-tuned with quantisation-aware training (QAT) so weights simulate int8 precision during the forward pass.',
+        'The trained model is exported to ONNX as an intermediate representation for device-agnostic optimization.',
+        'TVM ingests the ONNX graph and applies operator fusion, layout optimization, and auto-tuning for the target hardware (ARM, x86, GPU).',
+        'For iOS targets, the optimized graph is converted to CoreML format using coremltools with hardware acceleration hints.',
+        'For Android and Linux targets, TVM emits a compiled shared library that runs without any Python or ML framework dependency.',
+        'A benchmark harness measures inference latency, memory footprint, and accuracy on each target to validate the speedup and size budgets.',
       ],
       features: [
-        'Reproducible experiments with dataset and artifact tracking',
-        'Validation gates before any deployment is allowed',
-        'API-first model serving for demos and integrations',
-        'Simple, presentation-friendly ML pipeline story',
+        'Quantisation-aware training (QAT) preserving accuracy while enabling int8 inference',
+        'ONNX as a portable intermediate representation for all targets',
+        'TVM auto-tuning for ARM, x86, and mobile GPU backends',
+        'CoreML export with hardware acceleration hints for iOS/macOS',
+        'Zero-dependency compiled artifacts for Android and embedded Linux',
+        'Benchmark harness validating latency, memory, and accuracy on each target platform',
       ],
       results: [
-        'Clearer story for recruiters and reviewers looking at the portfolio',
-        'Much stronger visual pairing between the project text and the project image',
-        'A dedicated cover asset instead of reusing a generic image',
+        '4× inference speedup over the baseline PyTorch model on ARM Cortex-A targets',
+        'Final model size reduced to 12MB — down from 94MB unoptimized',
+        'Deployed successfully on iOS, Android, and Raspberry Pi 4',
+        'Accuracy drop under 0.8% vs the full-precision baseline on the validation set',
       ],
       architecture:
-        'Data snapshot → training → MLflow logging → validation gates → Docker package → API deploy → monitoring',
+        'PyTorch QAT → ONNX export → TVM optimize + auto-tune → CoreML (iOS) / compiled .so (Android/Linux) → benchmark harness',
     },
     link: '#',
   },
@@ -434,38 +480,38 @@ export const projects = [
 export const experience = [
   {
     period: '2026 — NOW',
-    role: 'AI ENGINEER',
+    role: 'AI ENGINEER & AUTOMATION DEVELOPER',
     org: 'FREELANCE / OPEN TO WORK',
     bullets: [
-      'Building end-to-end AI products: RAG systems, agentic pipelines, and n8n automation workflows for clients.',
-      'Designing and shipping LLM-powered tools with evaluation harnesses, observability, and human-in-the-loop fallbacks.',
-      'Exploring the latest advancements in AI to deliver innovative, efficient, and production-ready solutions.',
+      'Architecting autonomous AI products: RAG systems, rule-based NLP engines, and enterprise automation pipelines.',
+      'Developing custom Manifest V3 Chrome extensions with OAuth2 integrations (Gmail API, Microsoft Graph) and IndexedDB local stores.',
+      'Delivering end-to-end full-stack AI solutions with FastAPI backends, asynchronous data processing, and modern interactive frontends.',
     ],
   },
   {
     period: '2025 — 2026',
-    role: 'AI & AUTOMATION DEVELOPER',
-    org: 'PROJECT-BASED WORK',
+    role: 'AI ENGINEER (FINAL YEAR PROJECT LEAD)',
+    org: 'ACADEMIC / APPLIED AI',
     bullets: [
-      'Developed ML and deep learning models for classification, NLP, and data-driven decision making.',
-      'Built n8n and webhook-based automation pipelines connecting CRMs, inboxes, and SaaS tools.',
-      'Delivered full-stack AI applications with FastAPI backends and modern web frontends.',
+      'Engineered the AI Competitor Intelligence Platform automating crawling, social signal connectors (Reddit/HN/SO), and rule-based sentiment scoring.',
+      'Designed opportunity matrix algorithms and SQLite WAL persistence layer with 28 automated integration test suites.',
+      'Constructed executive intelligence dashboards with Chart.js and automated multi-page PDF dossier generation using fpdf2.',
     ],
   },
   {
     period: '2022 — 2026',
     role: "BACHELOR'S IN ARTIFICIAL INTELLIGENCE",
-    org: 'UNIVERSITY',
+    org: 'THE ISLAMIA UNIVERSITY OF BAHAWALPUR',
     bullets: [
-      'Studied Machine Learning, Deep Learning, NLP, Computer Vision, and intelligent systems.',
-      'Completed projects in agentic AI, vector databases, and workflow automation.',
-      'Graduated with strong foundations in both theory and practical AI engineering.',
+      'Graduated with CGPA 3.68 / 4.00, mastering Machine Learning, Deep Learning, Natural Language Processing, and Agentic AI.',
+      'Earned professional certifications: Generative AI App Developer (UETIANS USA), Boot.dev Python & OOP, and Data Science.',
+      'Solved algorithmic problems on LeetCode and published video explanations on LinkedIn to support peer technical learning.',
     ],
   },
 ]
 
 export const contact = {
-  heading: "LET'S BUILD SOMETHING THAT THINKS.",
-  sub: 'Currently open to AI engineering roles, automation projects, and select consulting work.',
+  heading: "LET'S BUILD SOMETHING THAT THINKS & SHIPS.",
+  sub: 'Currently open to AI Engineering roles, automation development projects, and select technical consulting.',
   cta: 'SEND A MESSAGE',
 }

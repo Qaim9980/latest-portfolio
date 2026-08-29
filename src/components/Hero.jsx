@@ -3,7 +3,7 @@ import { useMagnetic } from '../hooks/useMagnetic'
 
 const lineA = ['AI']
 const lineB = ['ENGINEER']
-const lineC = ['/ BUILDING INTELLIGENT SYSTEMS']
+const lineC = ['/ BUILD']
 
 function Split({ words, baseClass }) {
   return (
