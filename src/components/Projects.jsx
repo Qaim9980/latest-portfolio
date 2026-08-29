@@ -36,6 +36,15 @@ function TiltCard({ children, index }) {
   )
 }
 
+function resolveAsset(url) {
+  if (!url) return ''
+  if (url.startsWith('http://') || url.startsWith('https://') || url.startsWith('data:')) return url
+  const base = import.meta.env.BASE_URL || '/'
+  const cleanBase = base.endsWith('/') ? base : `${base}/`
+  const cleanUrl = url.startsWith('/') ? url.slice(1) : url
+  return `${cleanBase}${cleanUrl}`
+}
+
 function ProjectCard({ p, i }) {
   const [open, setOpen] = useState(false)
   const detailsRef = useRef(null)
@@ -94,7 +103,7 @@ function ProjectCard({ p, i }) {
       </div>
       {p.cover && (
         <figure className="project__cover">
-          <img src={p.cover} alt={`${p.title} workflow diagram`} loading="lazy" />
+          <img src={resolveAsset(p.cover)} alt={`${p.title} workflow diagram`} loading="lazy" />
         </figure>
       )}
       {hasDetails && (

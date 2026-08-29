@@ -17,6 +17,15 @@ function Split({ words, baseClass }) {
   )
 }
 
+function resolveAsset(url) {
+  if (!url) return ''
+  if (url.startsWith('http://') || url.startsWith('https://') || url.startsWith('data:')) return url
+  const base = import.meta.env.BASE_URL || '/'
+  const cleanBase = base.endsWith('/') ? base : `${base}/`
+  const cleanUrl = url.startsWith('/') ? url.slice(1) : url
+  return `${cleanBase}${cleanUrl}`
+}
+
 export default function Hero() {
   const cta1 = useMagnetic(0.35)
   const cta2 = useMagnetic(0.35)
@@ -34,7 +43,7 @@ export default function Hero() {
         <p className="hero__tagline">{profile.tagline}</p>
         <div className="hero__actions">
           <a ref={cta1} href="#projects" className="btn btn--accent magnetic">VIEW PROJECTS →</a>
-          <a ref={cta2} href={profile.resumeUrl} className="btn btn--ghost magnetic">RESUME ↓</a>
+          <a ref={cta2} href={resolveAsset(profile.resumeUrl)} className="btn btn--ghost magnetic">RESUME ↓</a>
         </div>
         <div className="mono hero__loc">
           {profile.location} <span className="sep">//</span> {profile.status}

@@ -49,7 +49,7 @@
     <text x="502" y="192" fill="#f4f1ea">&amp; TEMPLATES</text>
     <line x1="500" y1="206" x2="674" y2="206" stroke="#f4f1ea" stroke-width="2" />
     <text x="502" y="230" font-family="JetBrains Mono, monospace" font-size="11" fill="#facc15">LOAD ATTRIBUTES:</text>
-    <text x="502" y="252" font-family="JetBrains Mono, monospace" font-size="11" fill="#f4f1ea">• ORIGIN &rarr; DEST</text>
+    <text x="502" y="252" font-family="JetBrains Mono, monospace" font-size="11" fill="#f4f1ea">• ORIGIN → DEST</text>
     <text x="502" y="272" font-family="JetBrains Mono, monospace" font-size="11" fill="#f4f1ea">• MILEAGE &amp; DEADHEAD</text>
     <text x="502" y="292" font-family="JetBrains Mono, monospace" font-size="11" fill="#f4f1ea">• RATE &amp; EQUIPMENT</text>
     <text x="502" y="322" font-family="JetBrains Mono, monospace" font-size="11" fill="#facc15">CUSTOM TEMPLATE TOKENS</text>
